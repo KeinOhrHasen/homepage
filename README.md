@@ -7,3 +7,4 @@ My very own personal website. Basically this is just a résumé.
 
 *You will like it.*
 
+![be happy](be-happy.png)
