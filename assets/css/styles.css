@@ -92,4 +92,134 @@ p {
 .wrapper-sidebar .skills, .wrapper-sidebar .contact-list{
   padding: 0;
 }
+.wrapper-descr {
+  width: 660px;
+  padding: 40px 60px 60px 60px;
+}
+
+.wrapper-descr .name {
+  font-size: 52px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+hr {
+  color: #307072;
+}
+.wrapper-descr .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+}
+
+.big-title .prof{
+    color:#307072;
+}
+
+.section{
+  margin-bottom: 50px;
+}
+
+.contact-list li i{
+  width: 20px;
+  height: 20px;
+  font-size: 14px
+}
+
+.wrapper-descr .item{
+  margin-bottom: 30px
+}
+
+.wrapper-descr .item .time{
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+
+.wrapper-descr .details{
+  padding-left: 200px;
+}
+
+.wrapper-descr .resume{
+  margin-bottom: 80px;
+}
+
+.label{
+  background: #5fa7b3;
+  padding: 10px 10px 10px 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color:#000;
+}
+
+.cont{
+  display: block;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px;
+  padding-top: 60px;
+  color:#000;
+}
+.footer .copyright {
+  line-height: 1.6;
+  color: #fff;
+  font-size: 13px;
+}
+.footer a {
+  color: #a8a8a8;
+}
+
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    .wrapper-box{
+      display: block;
+      padding:40px;
+    }
+
+    .wrapper-descr{
+      width: 100%;
+      margin: 0;
+    }
+
+    .wrapper-descr .details{
+      padding-left: 10%;
+  }
+  .wrapper-sidebar{
+   width: 100%;
+   margin: 0 auto;
+
+}
+
+
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+  .wrapper-descr .details{
+      padding-left: 10%;
+  }
+  .wrapper-box{
+    width: 100%;
+    }
+
+}
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
 
